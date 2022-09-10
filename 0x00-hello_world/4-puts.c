@@ -1,21 +1,16 @@
- #include <stdio.h>
+#include <stdio.h>
 
 /**
- *
- *main - main block
- *
- *   *Description - the main function 
- *
- *Return: 0
- *
+ * main - this is the starting point of the program
+ * description - trying to learn c bruh
+ * Return: 0
  */
 
-int main(void)
-
+void main(void)
 {
+	char Mystr[] = "\"Programming is like building a multilingual puzzle");
 
-		puts("\"Programming is like building a multilingual puzzle");
+	puts(Mystr);
 
-			return (0);
-
+	return (0);
 }
