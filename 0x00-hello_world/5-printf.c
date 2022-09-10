@@ -3,6 +3,7 @@
 /**
  * main - this is the entry of the program
  * description - i think i am getting the hang of this
+ * Return: 0
  */
 
 int main(void)
