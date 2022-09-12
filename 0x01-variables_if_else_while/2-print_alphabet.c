@@ -7,13 +7,8 @@
 
 int main(void)
 {
-	char c;
-
-	for (c = 'a'; c <= 'z'; ++c)
-
-	{
-		printf("%c", c);
-
-	}
+	char *str = "abcdefghijklmnopqrstuvwxyz\n";
+		puts(str);
+	
 	return (0);
 }
