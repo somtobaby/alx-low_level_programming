@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
- * main - the entry point of the program
+ * main - this is the starting point of the program
  * description - codeto check if a random number is pos, neg or zero
- * Returm: 0
+ * Return: 0
  */
 
 int main(void)
