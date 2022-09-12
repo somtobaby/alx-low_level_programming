@@ -8,7 +8,7 @@
 int main(void)
 {
 	char *str = "abcdefghijklmno"
-		
+	
 			"pqrstuvwxyz";
 		puts(str);
 
