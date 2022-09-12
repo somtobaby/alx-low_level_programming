@@ -9,6 +9,6 @@ int main(void)
 {
 	char *str = "abcdefghijklmnopqrstuvwxyz\n";
 		puts(str);
-	
+
 	return (0);
 }
