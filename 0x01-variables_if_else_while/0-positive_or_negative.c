@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
 
 /**
  * main - the entry point of the program
@@ -9,20 +10,20 @@
 
 int main(void)
 {
-	int n;
+	int n = rand();
 
 	if (n > 0)
 	{
-		printf("int %d is positive\n", n);
+		printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("int%d is zero\n", n);
+		printf("%d is zero\n", n);
 	}
 	else
 	{
 		printf("%d is negative\n", n);
 	}
-	
+
 	return (0);
 }
