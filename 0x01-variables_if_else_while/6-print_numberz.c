@@ -8,9 +8,12 @@
 
 int main(void)
 {
-	char *str = "0123456789";
+	int a;
 
-	puts(str);
-
+	for (a = 0; a < 10; a++)
+	{
+		putchar(a + '0');
+	}
+	putchar ('\n');
 	return (0);
 }
