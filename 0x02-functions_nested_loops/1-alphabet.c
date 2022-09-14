@@ -3,6 +3,7 @@
 
 /**
  * print_alphabet - Entry Point
+ * main - Entry Point
  * description - code to print the alphabet in lowercase
  * using putchar
  * Return: 0
