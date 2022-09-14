@@ -1,4 +1,5 @@
 #include  <stdio.h>
+#include "main.h"
 
 /**
  * print_alphabet - Entry Point
@@ -7,9 +8,9 @@
  * Return: 0
  */
 
+void print_alphabet(void);
 int main(void)
 {
-void print_alphabet(void);
 
 	char ch = 'a';
 	char i = '\n';
@@ -20,5 +21,4 @@ void print_alphabet(void);
 	}
 
 	putchar(i);
-	return (0);
 }
