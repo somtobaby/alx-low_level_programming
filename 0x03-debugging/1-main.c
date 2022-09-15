@@ -2,7 +2,6 @@
 
 /**
  * main - causes an infinite loop
- * description - causes an infinte loop
  * Return: 0
  */
 
@@ -16,7 +15,6 @@ int main(void)
 
 	while (i < 10)
 	{
-/* don't delete it! */
 		putchar(i);
 	}
 
